@@ -1,0 +1,71 @@
+/* Fill CSS here*/
+  h1{
+    text-align: center;
+    color: rgb(72, 72, 176);
+}
+
+div{
+    display: flex;
+    justify-content: space-between;
+    align-items: start;
+    /* border: 1px solid red; */
+}
+
+form{
+    /* border: 1px solid red; */
+    margin: 30px;
+    padding: 20px;
+    height: 400px;
+    width: 300px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+label, input, select{
+    margin: 10px;
+    width: 250px;
+}
+input[type="submit"] {
+    background-color: #2b619e;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+    width: 90%;
+    font-size: 20px;
+  }
+
+input[type="submit"]:hover {
+    background-color: #3973b6;
+  }
+
+th{
+    color: white;
+    background-color: #0366aa;
+    height: 30px;
+    padding: 10px;
+}
+
+td {
+  /* border: 1px solid red; */
+  text-align: center;
+}
+
+table{
+    margin-top: 30px;
+    /* border: 1px solid red; */
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+
+}
+  table tr:nth-child(even) {
+    background-color: #8caacf;
+  }
+  
+  table tr:hover {
+    background-color: #ddd;
+  }
+  button{
+    color: black;
+    background-color: red;
+    border: none;
+  }
